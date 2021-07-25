@@ -1,11 +1,7 @@
-import App from "./Render.svelte";
+import App from "./If.svelte";
 
 const app = new App({
   target: document.body,
-  //   props: {
-  //     name: "world",
-  //     age: 25,
-  //   },
 });
 
 export default app;
